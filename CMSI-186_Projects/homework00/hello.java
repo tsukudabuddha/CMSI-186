@@ -1,8 +1,8 @@
-public class Hello {
+public class HelloWorld {
   
   public static void main(String[] args {
-      // will print "Hello"
-      System.out.printIn("Hello);
+      // will print "Hello, World"
+      System.out.printIn("Hello, World");
   }
                       
 }
