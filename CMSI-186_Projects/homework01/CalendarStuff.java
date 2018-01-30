@@ -102,7 +102,7 @@ public class CalendarStuff {
      }
      if (month == 2 && (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0)) {
        return 29;
-     }else {
+     } else {
        return 28;
      }
    }
@@ -123,8 +123,8 @@ public class CalendarStuff {
    public static boolean dateEquals( long month1, long day1, long year1, long month2, long day2, long year2 ) {
      if ((month1 == month2) && (day1 == day2) && (year1 == year2));
       return true;
-     }else {
-      return false;
+     } else {
+        return false;
      }
 
 
@@ -142,21 +142,20 @@ public class CalendarStuff {
    public static int compareDate( long month1, long day1, long year1, long month2, long day2, long year2 ) {
       if (year1 > year2) {
         return -1;
-      }else if (year1 < year2) {
-        return 1;
-      }else {
+      } else if (year1 < year2) {
+          return 1;
+      } else {
         if (month1 > month2) {
           return -1;
-      }
-      else if (month1 < month2){
-        return 1;
-      }
-      else {
+        }
+      } else if (month1 < month2){
+          return 1;
+      } else {
         if(day1 > day2) {
           return 1;
         }
-      else {
-        return 0;
+      } else {
+          return 0;
       }
    }
 }
