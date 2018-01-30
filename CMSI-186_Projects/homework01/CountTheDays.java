@@ -1,5 +1,5 @@
 public class CountTheDays {
-  public static void man (String [] args) {
+  public static void main (String [] args) {
     long month0 = Long.parseLong(args[0]);
 		long day0 = Long.parseLong(args[1]);
 		long year0 = Long.parseLong(args[2]);
