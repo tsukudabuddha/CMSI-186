@@ -80,10 +80,10 @@ public class CalendarStuff {
    public static boolean isLeapYear( long year ) {
      if ((year % 4 == 0 && (year % 100 != 0 || year % 400 == 0) {
        return true;
-    } else {
+     } else {
       return false;
-    } // replace this with the actual code
-  }
+     } 
+   }
 
   /**
    * A method to calculate the days in a month, including leap years
@@ -102,7 +102,7 @@ public class CalendarStuff {
      }
      if (month == 2 && (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0)) {
        return 29;
-     } else {
+     }else {
        return 28;
      }
    }
@@ -123,9 +123,9 @@ public class CalendarStuff {
    public static boolean dateEquals( long month1, long day1, long year1, long month2, long day2, long year2 ) {
      if ((month1 == month2) && (day1 == day2) && (year1 == year2));
       return true;
-    } else {
+     }else {
       return false;
-    }
+     }
 
 
 
